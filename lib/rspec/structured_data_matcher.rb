@@ -3,7 +3,7 @@ require 'json'
 
 module Rspec
   module StructuredDataMatcher
-    VALIDATE_TOOL_URL = 'https://structured-data-testing-tool.developers.google.com/sdtt/web/validate'.freeze
+    VALIDATE_TOOL_URL = 'https://search.google.com/structured-data/testing-tool/validate'.freeze
     RSpec::Matchers.define :valid_structure_data do
       match do |html|
         uri = URI.parse VALIDATE_TOOL_URL
