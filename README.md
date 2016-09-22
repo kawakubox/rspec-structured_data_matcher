@@ -22,7 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```sample_spec.rb
+it '...' do
+  get :sample
+  expect(response.body).to valid_structure_data
+end
+```
 
 ## Development
 
