@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'RSpec custom matcher for structured data.'
   spec.description   = 'This is custom matcher for RSpec. Using Google structured-data testing tool.'
-  spec.homepage      = 'https:://github.com/kawakubox/rspec-structured_data_matcher'
+  spec.homepage      = 'https://github.com/kawakubox/rspec-structured_data_matcher'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
